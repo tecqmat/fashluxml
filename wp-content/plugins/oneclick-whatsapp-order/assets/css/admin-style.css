@@ -1,0 +1,106 @@
+@charset "UTF-8";
+.col {
+  float: left;
+  width: 48%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.two-col:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section_wa_order {
+	font-size: 20px;
+}
+.wa_order_input, .wa_order-admin-select2 {
+	height: 40px;
+	width: 400px;
+	padding-left: 8px;
+}
+.wa_order_input_areatext {
+	width: 400px;
+	padding-left: 8px;
+}
+.wa_order_p_desc {
+	font-size: 14px;
+}
+.OCWAORDER_pluginpage_title h1 {
+	font-weight: bold;
+}
+.tg {
+	margin-top:30px;
+	border-collapse:collapse;
+	border-spacing:0;
+	border:none;
+}
+.tg td{
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	padding:5px 15px 5px 5px;
+	border-style:solid;
+	border-width:0px;
+	overflow:hidden;
+	word-break:normal;
+}
+.tg th{
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	padding:5px 15px 5px 5px;
+	border-style:solid;
+	border-width:0px;
+	overflow:hidden;
+	word-break:normal;
+}
+.tg .tg-1wig{
+	font-weight:bold;
+	text-align:left;
+	vertical-align:top
+}
+.tg .tg-kiyi{
+	font-weight:bold;
+	border-color:inherit;
+	text-align:left
+}
+.tg .tg-fymr{
+	border-color:inherit;
+	text-align:left;
+	vertical-align:top
+}
+.tg .tg-0lax{
+	text-align:left;
+	vertical-align:top
+}
+.donate-container {
+	margin: 40px 0;
+	text-align: center;
+	max-width: 500px;
+	width: 100%;
+	display: block;
+}
+.donatebutton {
+	backface-visibility: hidden;
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	white-space: nowrap;
+	background: #ff813f;
+	border-radius: 5px;
+	border: 0px solid #ff813f;
+	border-width: 0px 0px 5px 0px;
+	padding: 9px 15px 6px 15px;
+	box-shadow: inset 0px 1px 3px rgba(255,255,255,.4);
+	color: #fff;
+	font-size: initial;
+	font-family: Helvetica Neue;
+	font-weight: 900;
+	font-style: normal;
+ }
+ .donatebutton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px -5px rgba(45, 62, 79, .3) !important;
+    transition: all ease-in-out 300ms;
+ }
