@@ -13,13 +13,15 @@
      <meta name="twitter:card" content="summary"/>
      <meta name="twitter:title" content="Buy replica watches in India. Fashluxee online store."/>
      <meta name="twitter:description" content="In India, buy top replica watches. We sell high-end and high-quality luxury fashion items such as handbags, clothing, shoes, accessories, etc from designer brands across our platform. These products are made from materials that are highly reliable and easy to care for."/>
-     <link rel="icon" href="https://fashluxee.in/wp-content/uploads/cropped-FASHLUXEE-LOGO-01-32x32.png" sizes="32x32"/>
-     <link rel="icon" href="https://fashluxee.in/wp-content/uploads/cropped-FASHLUXEE-LOGO-01-192x192.png" sizes="192x192"/>
-     <link rel="apple-touch-icon" href="https://fashluxee.in/wp-content/uploads/cropped-FASHLUXEE-LOGO-01-180x180.png"/>
-     <meta name="msapplication-TileImage" content="https://fashluxee.in/wp-content/uploads/cropped-FASHLUXEE-LOGO-01-270x270.png"/>
+     <link rel="icon" href="https://tecqmat.github.io/fashluxml/wp-content/uploads/cropped-FASHLUXEE-LOGO-01-32x32.png" sizes="32x32"/>
+     <link rel="icon" href="https://tecqmat.github.io/fashluxml/wp-content/uploads/cropped-FASHLUXEE-LOGO-01-192x192.png" sizes="192x192"/>
+     <link rel="apple-touch-icon" href="https://tecqmat.github.io/fashluxml/wp-content/uploads/cropped-FASHLUXEE-LOGO-01-180x180.png"/>
+     <meta name="msapplication-TileImage" content="https://tecqmat.github.io/fashluxml/wp-content/uploads/cropped-FASHLUXEE-LOGO-01-270x270.png"/>
   </head>
-  <body><xsl:value-of select="body"/></body>
-  <xi:include href="footer.xml"/>
+  <body>
+    <h1><xsl:value-of select="title"/></h1>
+    <xsl:value-of select="body"/>
+  </body>
 </html>
 </xsl:template>
 </xsl:stylesheet>
