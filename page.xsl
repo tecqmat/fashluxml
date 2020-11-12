@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
-<xsl:output method="html" cdata-section-elements="body"/>
 <html xmlns:xi="http://www.w3.org/2001/XInclude" class="html" lang="en-US">
   <head>
      <meta charset="UTF-8"/>
@@ -21,7 +20,10 @@
   </head>
   <body>
     <h1><xsl:value-of select="/page/title"/></h1>
-    <xsl:value-of select="/page/body"/>
+    <xsl:output method="html"/>
+    <xsl:template match="/page/body/text()">
+      <xsl:copy/>
+    </xsl:template>
   </body>
 </html>
 </xsl:template>
