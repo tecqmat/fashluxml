@@ -11,6 +11,8 @@
         <link rel="icon" href="https://tecqmat.github.io/fashluxml/wp-content/uploads/cropped-FASHLUXEE-LOGO-01-192x192.png" sizes="192x192" />
         <link rel="apple-touch-icon" href="https://tecqmat.github.io/fashluxml/wp-content/uploads/cropped-FASHLUXEE-LOGO-01-180x180.png" />
         <meta name="msapplication-TileImage" content="https://tecqmat.github.io/fashluxml/wp-content/uploads/cropped-FASHLUXEE-LOGO-01-270x270.png" />
+        <meta property="article:author" content="Fashluxee"/>
+        <meta property="og:type" content="website"/>
         <xsl:copy-of select="./head/*" />
       </head>
     </html>
@@ -719,6 +721,7 @@
             </div>
           </div>
         </div>
+        Connect with us on <ul class="sxc-follow-buttons"> <li class="sxc-follow-button"> <a href="https://www.facebook.com/fashluxee.worldofluxury/" title="Facebook" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/facebook.png" alt="Facebook"/> </a> </li> <li class="sxc-follow-button"> <a href="https://www.instagram.com/fashluxee__" title="Instagram" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/instagram.png" alt="Instagram"/> </a> </li> <li class="sxc-follow-button"> <a href="https://fashluxee.blogspot.com/" title="Blogger" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/blogger.png" alt="Blogger"/> </a> </li> <li class="sxc-follow-button"> <a href="https://www.pinterest.com/fashluxee/" title="Pinterest" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/pinterest.png" alt="Pinterest"/> </a> </li><li class="sxc-follow-button"> <a href="https://wa.me/919503021689" title="WhatsApp" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/whatsapp.png" alt="WhatsApp"/> </a> </li><li class="sxc-follow-button"> <a href="tel://+919503021689/" title="Telephone" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/telephone.png" alt="Telephone"/> </a> </li></ul>
       </main>
       <footer id="footer" class="site-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo">
         <div id="footer-inner" class="clr">
@@ -824,6 +827,27 @@
             </div>
           </div>
         </div>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-includes/css/dist/block-library/style.min.css?ver=5.5.1' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-includes/css/dist/block-library/theme.min.css?ver=5.5.1' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=3.1.0' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=3.1.0' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/lib/bootstrap-tooltip/bootstrap-tooltip.css?ver=4.60' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/css/frontend.css?ver=4.60' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/plugins/oneclick-whatsapp-order/assets/css/main-style.css?ver=5.5.1' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css?ver=4.5.7' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/css/woo/woo-mini-cart.min.css?ver=5.5.1' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/css/woo/woocommerce.min.css?ver=5.5.1' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/css/woo/woo-star-font.min.css?ver=5.5.1' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=5.11.2' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/css/third/magnific-popup.min.css?ver=1.0.0' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/css/third/slick.min.css?ver=1.6.0' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/css/style.min.css?ver=1.8.9' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/css/third/hamburgers/hamburgers.min.css?ver=1.8.9' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/3dxy.css?ver=1.8.9' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/plugins/loftloader/assets/css/loftloader.min.css?ver=2020081301' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=5.5.1' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-includes/css/custom.css' type='text/css'/>
       </footer>
       <a id="scroll-top" class="scroll-top-left" href="#">
         <span class="fa fa-angle-up" aria-label="Scroll to the top of the page" />
