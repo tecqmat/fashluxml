@@ -827,6 +827,7 @@
             </div>
           </div>
         </div>
+        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"> <div class="pswp__bg"></div> <div class="pswp__scroll-wrap"> <div class="pswp__container"> <div class="pswp__item"></div> <div class="pswp__item"></div> <div class="pswp__item"></div> </div> <div class="pswp__ui pswp__ui--hidden"> <div class="pswp__top-bar"> <div class="pswp__counter"></div> <button class="pswp__button pswp__button--close" aria-label="Close (Esc)"></button> <button class="pswp__button pswp__button--share" aria-label="Share"></button> <button class="pswp__button pswp__button--fs" aria-label="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" aria-label="Zoom in/out"></button> <div class="pswp__preloader"> <div class="pswp__preloader__icn"> <div class="pswp__preloader__cut"> <div class="pswp__preloader__donut"></div> </div> </div> </div> </div> <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"> <div class="pswp__share-tooltip"></div> </div> <button class="pswp__button pswp__button--arrow--left" aria-label="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" aria-label="Next (arrow right)"></button> <div class="pswp__caption"> <div class="pswp__caption__center"></div> </div> </div> </div> </div>
         <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-includes/css/dist/block-library/style.min.css?ver=5.5.1' type='text/css'/>
         <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-includes/css/dist/block-library/theme.min.css?ver=5.5.1' type='text/css'/>
         <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=3.1.0' type='text/css'/>
@@ -838,6 +839,7 @@
         <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/css/woo/woo-mini-cart.min.css?ver=5.5.1' type='text/css'/>
         <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/css/woo/woocommerce.min.css?ver=5.5.1' type='text/css'/>
         <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/css/woo/woo-star-font.min.css?ver=5.5.1' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/css/woo/woo-floating-bar.min.css?ver=5.5.1' type='text/css'/>
         <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=5.11.2' type='text/css'/>
         <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0' type='text/css'/>
         <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/css/third/magnific-popup.min.css?ver=1.0.0' type='text/css'/>
@@ -848,10 +850,61 @@
         <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/plugins/loftloader/assets/css/loftloader.min.css?ver=2020081301' type='text/css'/>
         <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=5.5.1' type='text/css'/>
         <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-includes/css/custom.css' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=4.5.2' type='text/css'/>
+        <link rel='stylesheet' href='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=4.5.2' type='text/css'/>
       </footer>
       <a id="scroll-top" class="scroll-top-left" href="#">
         <span class="fa fa-angle-up" aria-label="Scroll to the top of the page" />
       </a>
+      <script type="text/template" id="tmpl-variation-template">
+        <div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+        <div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+        <div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+      </script>
+      <script type="text/template" id="tmpl-unavailable-variation-template">
+        <p>Sorry, this product is unavailable. Please choose a different combination.</p>
+      </script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/lib/bootstrap-tooltip/bootstrap-tooltip.js?ver=4.60'></script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=4.5.2'></script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=4.5.2'></script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=4.5.2' ></script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/js/third/woo/woo-mini-cart.min.js?ver=1.8.9'></script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-includes/js/imagesloaded.min.js?ver=4.1.4' ></script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/js/third/woo/woo-scripts.min.js?ver=1.8.9'></script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/js/third/magnific-popup.min.js?ver=1.8.9'></script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/js/third/lightbox.min.js?ver=1.8.9'></script>
+      <script>
+       var oceanwpLocalize = {"isRTL":"","menuSearchStyle":"drop_down","sidrSource":null,"sidrDisplace":"1","sidrSide":"left","sidrDropdownTarget":"link","verticalHeaderTarget":"link","customSelects":".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select","wooCartStyle":"drop_down","is_cart":"","cart_url":"https:\/\/fashluxee.in\/cart\/","ajax_url":"https:\/\/fashluxee.in\/wp-admin\/admin-ajax.php","login_reminder_enabled":"1","is_logged_in":"","no_account_btn":"I don\u2019t have an account","next":"Next","cart_redirect_after_add":"no","view_cart":"View cart","floating_bar":"on","grouped_text":"View products"};
+      </script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/js/main.min.js?ver=1.8.9'></script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-content/plugins/loftloader/assets/js/loftloader.min.js?ver=2020081301'></script>
+      <script>
+        var IvorySearchVars = {"is_analytics_enabled":"1"};
+      </script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-content/plugins/add-search-to-menu/public/js/ivory-search.min.js?ver=4.5.7'></script>
+      <script src='https://tecqmat.github.io/fashluxml/wp-includes/js/wp-embed.min.js?ver=5.5.1'></script>
+      <!--[if lt IE 9]>
+        <script src='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/js/third/html5.min.js?ver=1.8.9' ></script>
+      <![endif]-->
+      <script>
+		window.addEventListener('beforeunload',function(e){document.body.classList.remove("loaded");},false);
+      </script>
+      <script type='text/javascript' src='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21'></script>
+      <script type='text/javascript' src='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2'></script>
+      <script type='text/javascript' src='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1'></script>
+      <script type='text/javascript' src='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1'></script>
+      <script type='text/javascript'>
+        var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"no","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"1","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};
+      </script>
+      <script type='text/javascript' src='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=4.5.2'></script>
+      <script type='text/javascript' src='https://tecqmat.github.io/fashluxml/wp-includes/js/underscore.min.js?ver=1.8.3' id='underscore-js'></script>
+      <script type='text/javascript' src='https://tecqmat.github.io/fashluxml/wp-includes/js/wp-util.min.js?ver=5.5.1' id='wp-util-js'></script> <script type='text/javascript'>
+        var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination."};
+      </script>
+      <script type='text/javascript' src='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=4.5.2'></script>
     </body>
   </xsl:template>
 </xsl:stylesheet>
