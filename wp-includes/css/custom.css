@@ -12,3 +12,4 @@ body.hide-cht-widget .chaty-widget.one_widget .chaty-widget-i:not(.no-tooltip):b
 
 #chaty-channel-phone .color-element{fill:#03e78b}
 #chaty-channel-whatsapp .color-element{fill:#49e670}
+.chaty-widget-i.chaty-main-widget{height: 54px; width: 54px;}

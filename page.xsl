@@ -16,7 +16,7 @@
         <xsl:copy-of select="./head/*" />
       </head>
     </html>
-    <body class="home page-template-default page page-id-8 wp-custom-logo wp-embed-responsive theme-oceanwp woocommerce-no-js oceanwp oceanwp-theme dropdown-mobile no-header-border default-breakpoint content-full-screen page-header-disabled account-side-style no-margins loftloader-lite-enabled" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+    <body class="home page-template-default page product-template-default single single-product wp-custom-logo wp-embed-responsive theme-oceanwp woocommerce-js woocommerce-page oceanwp oceanwp-theme dropdown-mobile no-header-border default-breakpoint content-full-screen content-max-width page-header-disabled account-side-style woo-left-tabs loftloader-lite-enabled" itemscope="itemscope" itemtype="https://schema.org/WebPage">
       <div id="loftloader-wrapper" class="pl-frame" data-show-close-time="15000" data-max-load-time="0">
         <div class="loader-inner">
           <div id="loader">
@@ -721,7 +721,7 @@
             </div>
           </div>
         </div>
-        Connect with us on <ul class="sxc-follow-buttons"> <li class="sxc-follow-button"> <a href="https://www.facebook.com/fashluxee.worldofluxury/" title="Facebook" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/facebook.png" alt="Facebook"/> </a> </li> <li class="sxc-follow-button"> <a href="https://www.instagram.com/fashluxee__" title="Instagram" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/instagram.png" alt="Instagram"/> </a> </li> <li class="sxc-follow-button"> <a href="https://fashluxee.blogspot.com/" title="Blogger" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/blogger.png" alt="Blogger"/> </a> </li> <li class="sxc-follow-button"> <a href="https://www.pinterest.com/fashluxee/" title="Pinterest" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/pinterest.png" alt="Pinterest"/> </a> </li><li class="sxc-follow-button"> <a href="https://wa.me/919503021689" title="WhatsApp" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/whatsapp.png" alt="WhatsApp"/> </a> </li><li class="sxc-follow-button"> <a href="tel://+919503021689/" title="Telephone" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/telephone.png" alt="Telephone"/> </a> </li></ul>
+        Connect with us on <ul class="sxc-follow-buttons"> <li class="sxc-follow-button"> <a href="https://www.facebook.com/fashluxee.worldofluxury/" title="Facebook" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/facebook.png" alt="Facebook"/> </a> </li> <li class="sxc-follow-button"> <a href="https://www.instagram.com/fashluxee__" title="Instagram" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/instagram.png" alt="Instagram"/> </a> </li> <li class="sxc-follow-button"> <a href="https://fashluxee.blogspot.com/" title="Blogger" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/blogger.png" alt="Blogger"/> </a> </li> <li class="sxc-follow-button"> <a href="https://www.pinterest.com/fashluxee/" title="Pinterest" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/pinterest.png" alt="Pinterest"/> </a> </li><li class="sxc-follow-button"> <a href="https://api.whatsapp.com/send?phone=919503021689&amp;text=Hi%20Fashluxee" title="WhatsApp" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/whatsapp.png" alt="WhatsApp"/> </a> </li><li class="sxc-follow-button"> <a href="tel://+919503021689/" title="Telephone" target="_blank"> <img src="https://tecqmat.github.io/fashluxml/wp-content/plugins/social-media-buttons-toolbar/inc/img/social-media-icons/telephone.png" alt="Telephone"/> </a> </li></ul>
       </main>
       <footer id="footer" class="site-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo">
         <div id="footer-inner" class="clr">
@@ -759,8 +759,8 @@
                 </div>
                 <div id="text-2" class="footer-widget widget_text clr">
                   <div class="textwidget">
-                    <div class="chaty-widget desktop_active mobile_active chaty-widget-show" dir="ltr">
-                      <div class="chaty-widget-is has-no-close-btn">
+                    <div class="chaty-widget desktop_active mobile_active chaty-widget-show" style="display:block; left: auto;bottom: 25px; right: 25px;top:10px;" dir="ltr">
+                      <div class="chaty-widget-is has-no-close-btn" style="height: 190px; width: 62px; bottom:100px!important;">
                         <div class="i-trigger">
                           <div class="chaty-widget-i chaty-main-widget is-in-desktop is-in-mobile whatsapp" data-title="919503021689" id="chaty-channel-whatsapp" data-channel="whatsapp" data-code="">
                             <p>
@@ -871,6 +871,7 @@
       <script src='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
       <script src='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=4.5.2'></script>
       <script src='https://tecqmat.github.io/fashluxml/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=4.5.2' ></script>
+      <script type='text/javascript' src='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/js/third/woo/woo-ajax-add-to-cart.min.js?ver=1.8.9'></script>
       <script src='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/js/third/woo/woo-mini-cart.min.js?ver=1.8.9'></script>
       <script src='https://tecqmat.github.io/fashluxml/wp-includes/js/imagesloaded.min.js?ver=4.1.4' ></script>
       <script src='https://tecqmat.github.io/fashluxml/wp-content/themes/oceanwp/assets/js/third/woo/woo-scripts.min.js?ver=1.8.9'></script>
